@@ -78,7 +78,7 @@ class Dashboard : AppCompatActivity() {
                     // If the user ID matches the current user's ID, show the data
                     if (userSnapshot.key == userId) {
                         tv_name.text = username
-                        tv_score.text = "Your Score is $correct out of 5"
+                        tv_score.text = "Your Score is $correct out of 10"
                     }
                 }
 

@@ -34,7 +34,7 @@ class QuizQuestion : AppCompatActivity() {
     var optionD : Button? = null
     var SubmitBtn : Button? = null
     var selectedOption =-1
-    var questionCount = 5
+    var questionCount = 10
     private var ans = -1
     var counter = 1
     var correct = 0
@@ -197,7 +197,7 @@ class QuizQuestion : AppCompatActivity() {
             ans = Questions[idx].correctAns
             selectedOption = -1
             progressBar?.progress = counter
-            progress_text?.setText("$counter/5")
+            progress_text?.setText("$counter/10")
 
             // Hide progress bar
             queImageVIew?.visibility  = View.VISIBLE
